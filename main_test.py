@@ -10,7 +10,7 @@ if len(sys.argv) > 1:
 else:
     epoch = None
 
-with open('configs/two_stage_ssd.yaml') as f:
+with open('configs/tsc.yaml') as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
 args = EasyDict(config)
 
